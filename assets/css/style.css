@@ -67,12 +67,12 @@ header div {
     width: 80%;
     margin: auto;
     margin-top: 20px;
-    position: relative;
 }
 
 .user {
     height: 6.5rem;
     width: 11rem;
+    position: relative;
 }
 
 .user img {
@@ -96,6 +96,7 @@ header div {
 
 #room .container {
     align-content: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 0.4rem;
 }
