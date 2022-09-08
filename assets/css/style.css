@@ -41,7 +41,6 @@ header div {
 
 .container {
     display: flex;
-    justify-content: flex-end;
 }
 
 #speaker_view {
@@ -62,4 +61,26 @@ header div {
     border-radius: 0.6rem;
     margin-bottom: 0.8rem;
     font-size: 0.8rem;
+}
+
+#room {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.user {
+    height: 6.5rem;
+    width: 11rem;
+}
+
+.user img {
+    height: 100%;
+    width: 100vw;
+}
+
+/* Utilities */
+
+.justify_end {
+    justify-content: flex-end;
 }
