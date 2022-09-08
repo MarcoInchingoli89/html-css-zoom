@@ -101,6 +101,33 @@ header div {
     gap: 0.4rem;
 }
 
+.bg_footer {
+    background-color: #222222;
+}
+
+.audio_video span, div {
+    color: var(--zm-primary);
+}
+
+#audio, #video {
+    display:inline-block ;
+    padding: 0.5rem;
+}
+
+.icon {
+    font-size: 1.4rem;
+    padding-left: 0.5rem;
+}
+
+.angle_up {
+    font-size: 0.6rem;
+    padding: 1rem;
+}
+
+.text {
+    font-size: 0.8rem;
+}
+
 /* Utilities */
 
 .justify_end {
