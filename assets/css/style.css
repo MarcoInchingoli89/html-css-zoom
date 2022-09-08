@@ -148,8 +148,20 @@ footer .container {
     padding: 0.5rem;
 }
 
-#share .icon {
-    color: var(--zm-share);
+.partecipants_left {
+    padding-left: 2.5rem;
+}
+
+.breakout_left {
+    padding-left: 2rem;
+}
+
+.share_left {
+    padding-left: 1.5rem;
+}
+
+.share_green {
+    color: #4BC800;
 }
 
 #end_meeting {
