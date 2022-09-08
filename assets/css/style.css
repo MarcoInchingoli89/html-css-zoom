@@ -22,7 +22,7 @@ img {
     --zm-primary: #FFFFFF;
     --zm-darker: #000000;
     --zm-dark: #222222;
-    --zm-lighter: #5B6A78;
+    --zm-lighter: #5b6a7881;
     --zm-light: #4A4A4A;
     --zm-share: #4BC800;
     --zm-end: #DE2119;
@@ -67,6 +67,7 @@ header div {
     width: 80%;
     margin: auto;
     margin-top: 20px;
+    position: relative;
 }
 
 .user {
@@ -78,6 +79,21 @@ header div {
     height: 100%;
     width: 100vw;
 }
+
+.mute {
+    height: 1.5rem;
+    width: 5rem;
+    font-size: 0.7rem;
+    color: white;
+    background-color: var(--zm-lighter);
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 
 /* Utilities */
 
