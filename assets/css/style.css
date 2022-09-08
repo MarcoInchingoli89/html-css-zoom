@@ -105,7 +105,7 @@ header div {
     background-color: #222222;
 }
 
-.audio_video span, div {
+#audio_video span, #audio_video div {
     color: var(--zm-primary);
 }
 
@@ -126,6 +126,34 @@ header div {
 
 .text {
     font-size: 0.8rem;
+}
+
+footer .container {
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+#control_panel span, #control_panel div {
+    color: var(--zm-primary);
+}
+
+#control_panel #invite, #partecipants, #polling, #share, #chat, #record, #rooms_breakout, #more{
+    display:inline-block ;
+    padding: 0.5rem;
+}
+
+#share .icon {
+    color: var(--zm-share);
+}
+
+#end_meeting {
+    background-color: var(--zm-light);
+}
+
+.text_red {
+    font-size: 0.8rem;
+    color: var(--zm-end);
+    padding: 1rem;
 }
 
 /* Utilities */
