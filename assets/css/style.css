@@ -29,6 +29,8 @@ img {
 
 }
 
+/* Header */
+
 .bg_black {
     background-color:var(--zm-darker);
     height: 100vh;
@@ -62,6 +64,8 @@ header div {
     margin-bottom: 0.8rem;
     font-size: 0.8rem;
 }
+
+/* Main */
 
 #room {
     width: 80%;
@@ -100,6 +104,8 @@ header div {
     flex-wrap: wrap;
     gap: 0.4rem;
 }
+
+/* Footer */
 
 .bg_footer {
     background-color: #222222;
