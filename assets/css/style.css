@@ -1,0 +1,65 @@
+/* Common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container_fluid {
+    width: 100%;
+    margin: auto;
+}
+
+/* Colors Palette */
+
+:root {
+
+    --zm-primary: #FFFFFF;
+    --zm-darker: #000000;
+    --zm-dark: #222222;
+    --zm-lighter: #5B6A78;
+    --zm-light: #4A4A4A;
+    --zm-share: #4BC800;
+    --zm-end: #DE2119;
+
+}
+
+.bg_black {
+    background-color:var(--zm-darker);
+    height: 100vh;
+}
+
+header div {
+    color: var(--zm-primary);
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#speaker_view {
+    padding: 0.6rem;
+    margin-top: 0.8rem;
+    background-color: grey;
+    margin-right: 0.8rem;
+    border-radius: 0.6rem;
+    margin-bottom: 0.8rem;
+    font-size: 0.8rem;
+}
+
+#maximize {
+    padding: 0.6rem;
+    margin-top: 0.8rem;
+    background-color: grey;
+    margin-right: 0.8rem;
+    border-radius: 0.6rem;
+    margin-bottom: 0.8rem;
+    font-size: 0.8rem;
+}
