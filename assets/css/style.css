@@ -94,6 +94,11 @@ header div {
     padding-bottom: 5px;
 }
 
+#room .container {
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
 
 /* Utilities */
 
